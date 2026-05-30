@@ -1,0 +1,12 @@
+#ifndef STATES_H
+#define STATES_H
+
+enum LinkBuddyState {
+  STATE_ONBOARDING,
+  STATE_NORMAL,
+  STATE_ANALYZING,
+  STATE_SAFE,
+  STATE_UNSAFE
+};
+
+#endif
